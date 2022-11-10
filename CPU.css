@@ -1,0 +1,140 @@
+
+
+nav {
+    background-color: #282A35;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+}
+
+nav #title {
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+ul#main {
+    display: inline;
+    list-style: none;
+}
+
+nav ul#main li {
+    display: inline-block;
+    margin: 5px;
+    padding: 7px;
+    position: relative;
+}
+
+ul#main li a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    position: relative;
+}
+
+ul#main li a:hover {
+    color: aqua;
+    transition: 1S;
+}
+
+.sub1 {
+    display: none;
+    left: 0;
+    top: 25px;
+}
+
+.sub1 ul#product li {
+    color: aliceblue;
+    font-size: medium;
+    float: left;
+}
+a#title:hover{
+    color:blueviolet;
+    transition: 3s;
+}
+
+nav ul#main li:hover .sub1 {
+    background-color: #282A35;
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+    position: absolute;
+}
+
+nav ul#main #disabled {
+    color: grey;
+}
+
+nav ul#login {
+    display: inline;
+    float: right;
+}
+
+nav ul#login li {
+    margin: 5px;
+    padding: 7px;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 4px;
+    transition: 2s;
+}
+nav ul#login li#button{
+    margin: 5px;
+    padding: 7px;
+    display: inline-block;
+    border: 1px solid whitesmoke;
+    border-radius: 7px;
+    transition: 5s;
+}
+
+
+nav ul#login li a {
+    text-decoration: none;
+    font-size: medium;
+    color: white;
+    
+}
+
+nav ul#login li:hover {
+    background-color: blueviolet;
+}
+
+nav ul#login li:hover a{
+    color: white;
+    font-style:unset;
+}
+
+/*     nav bar finished    */
+
+main{
+    
+    background-color: rgb(233, 236, 239);
+
+}
+div.learn i{
+    padding-left: 2px;
+}
+
+div.title p{
+    font-size: 60px;
+}
+.title{
+    padding-top: 80px;
+}
+.title,.explane,.learn{
+    padding-left: 110px;
+}
+.learn{
+    padding-bottom: 80px;
+}
+
+
+/* FOOTER */
+footer div{
+    background-color: white;
+}
+footer p#Company{
+    font-size: 20px;
+    padding-left: 50px;
+    padding-top: 30px;
+}
