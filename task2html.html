@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task2</title>
+</head>
+<body>
+    <input id="num" placeholder="ID" type="text">
+    <input id="name" placeholder="name" type="text">
+    <input id="sur" placeholder="surname" type="text">
+    <button id="send">Send</button>
+    <table>
+        <thead>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Surname</th>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</body>
+<script>
+
+    const id=document.querySelector("#num")
+const namee=document.querySelector("#name")
+const surn=document.querySelector("#sur")
+const butt=document.querySelector("#send")
+const body=document.querySelector("tbody")
+
+butt.addEventListener("click",function(){
+    tr=document.createElement('tr');
+    td1=document.createElement('td')
+    td1.innerText=id.value
+    td2=document.createElement('td')
+    td2.innerText=namee.value
+    td3=document.createElement('td')
+    td3.innerText=surn.value
+
+    tr.append(td1)
+    tr.append(td2)
+    tr.append(td3)
+
+    body.append(tr)
+
+    id.value=""
+    namee.value=""
+    surn.value=""
+})
+
+
+</script>
+</html>

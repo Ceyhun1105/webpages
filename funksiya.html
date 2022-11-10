@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script >
+    
+    function Add(x,y){
+        return x+y;
+    }
+    function Multiple(x,y){
+        return x*y;
+    }
+    function Minus(x,y){
+        return x-y;
+    }
+    function Divide(x,y){
+        return x/y;
+    }
+    choice=parseInt(prompt(" 1 - Addition \n 2 - Multiplication \n 3 - Subtraction \n 4 - Division"))
+    
+    let a = parseInt(prompt("Include first element value"))
+    let b = parseInt(prompt("Include second element value"))
+    
+    switch(choice){
+        case 1:
+            console.log(Add(a,b));
+            break;
+        case 2:
+            console.log(Multiple(a,b));
+            break;
+        case 3:
+            console.log(Minus(a,b));
+            break;
+        case 4:
+            console.log(parseInt(Divide(a,b)));
+            break; 
+        default:
+            console.log("Wrong Choice")
+    }
+
+</script>
+</html>
